@@ -2,11 +2,7 @@
   --pr: #b6895b;
   --sc: #ffffff;
   --bg: #010101;
-}
-
-html {
-  overflow-x: hidden;
-}
+} 
 
 * {
   margin: 0;
@@ -408,6 +404,7 @@ footer .credit a {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+    overflow-x: hidden;
   }
 
   #hamburger-menu {
